@@ -1,0 +1,293 @@
+@media screen and (max-width:425px) {
+    * {}
+    .logo {
+        padding: 2px;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .header {
+        position: fixed;
+        background: #B2AADB;
+    }
+    .header ul {
+        padding: 0;
+        width: 60%;
+        text-align: right;
+        font-size: 12px;
+    }
+    .header ul li {
+        padding: 0 8px;
+    }
+    .header ul li a {}
+    .banner {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .banner-content {
+        top: 15%;
+        padding-left: 15px;
+    }
+    .banner-content h1 {
+        width: 80%;
+        font-size: 25px;
+        margin: 0;
+    }
+    .banner-content p {}
+    .banner-btn {
+        margin: 20px 0;
+    }
+    .banner-btn a {
+        border-radius: 20px;
+        transform: translate(0%, 0%) scale(0);
+        transition: .5s;
+        font-size: 15px;
+        box-shadow: none;
+        padding: 3px 20px;
+        border-bottom: 2px solid;
+    }
+    .banner-img {}
+    .banner-img img {
+        width: 150px;
+    }
+    .section-one {
+        width: 100%;
+    }
+    .title-one {
+        padding-bottom: 10px;
+    }
+    .title-one p {
+        font-size: 11px;
+    }
+    .title-one h1 {
+        font-size: 17px;
+    }
+    .title-one img {
+        width: 20px;
+    }
+    .services-img {
+        margin: 0px 5px;
+        overflow: hidden;
+        padding: 0 0 15px 0;
+        float: left;
+    }
+    .services-img img {
+        float: left;
+        width: 60%;
+        padding-top: 10px;
+    }
+    .brand-identity {
+        float: center;
+        width: 90%;
+        text-align: left;
+    }
+    .brand-identity h2 {
+        margin: 0;
+        overflow: hidden;
+        padding-bottom: 5px;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .brand-identity p {
+        overflow: hidden;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .online-marketing {
+        width: 90%;
+        text-align: left;
+    }
+    .online-marketing h2 {
+        margin: 0;
+        overflow: hidden;
+        padding-bottom: 5px;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .online-marketing p {
+        overflow: hidden;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .social-media {
+        float: left;
+        width: 90%;
+        text-align: left;
+    }
+    .social-media h2 {
+        margin: 0;
+        overflow: hidden;
+        padding-bottom: 5px;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+    .social-media p {
+        overflow: hidden;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+    .section-two {
+        width: 100%;
+        padding: 10px;
+        border-top: 2px dotted #B2AADB;
+    }
+    .people {
+        overflow: hidden;
+    }
+    .people img {
+        width: 20px;
+        padding: 0;
+    }
+    .people p {
+        font-size: 11px;
+        overflow: hidden;
+    }
+    .people h1 {
+        padding-right: 0;
+        font-size: 17px;
+        line-height: 15px;
+    }
+    .people ul {
+        overflow: hidden;
+        width: 150%;
+    }
+    .people ul li {}
+    .people-img {
+        overflow: hidden;
+    }
+    .people-img img {
+        width: 40%;
+        height: 40%;
+    }
+    .section-three {
+        padding: 10px;
+        width: 100%;
+        border-top: 2px dotted #B2AADB;
+    }
+    .contact {
+        padding: 0px;
+    }
+    .contact img {
+        padding: 0;
+        width: 20px;
+    }
+    .contact p {
+        font-size: 11px;
+    }
+    .contact h1 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .call {}
+    .call a {}
+    .call p {}
+    .map {
+        padding: 50px 0;
+    }
+    .office {
+        margin: 0;
+        box-shadow: none;
+        width: 50%;
+        height: 50px;
+    }
+    .office h1 {
+        font-size: 17px;
+        padding: 0px 5px;
+        text-align: center;
+    }
+    .office p {
+        padding: 0 5px;
+        background: #F8F8F8;
+    }
+    .office p a {
+        color: blue;
+    }
+    .section-four {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .content {
+        margin: 0;
+        width: 100%;
+    }
+    .about-us {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+    .about-us img {
+        margin: 0;
+        width: 120px;
+    }
+    .about-us p {
+        margin: 0 auto;
+        line-height: 15px;
+    }
+    .feed {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .feed h1 {
+        margin: 0;
+        font-size: 25px;
+    }
+    .feed img {
+        width: 10%;
+    }
+    .newsletter {
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .newsletter h1 {
+        margin: 0;
+        font-size: 25px;
+    }
+    .subscrive {
+        margin-top: -20px;
+    }
+    .sub-box {}
+    .sub-box input {
+        height: 25px;
+        float: left;
+    }
+    .sub-btn {}
+    .sub-btn input {
+        height: 25px;
+        border: 1px solid;
+        background: white;
+        color: black;
+        border-radius: 0;
+    }
+    .sub-btn input:hover {
+        background: #0F153A;
+        color: #AACCF9;
+        border-radius: 0;
+        border: 1px solid;
+    }
+    footer {}
+    .footer-section {
+        width: 100%;
+    }
+    .copyright {
+        margin: 0;
+    }
+    .copyright p {
+        font-size: 11px;
+    }
+    i {}
+    .social-sites {
+        margin: 0 auto;
+        float: left;
+    }
+    .social-sites a {
+        padding: 0 5px;
+    }
+    .social-sites a img {
+        margin: 0;
+        width: 16px;
+    }
+}

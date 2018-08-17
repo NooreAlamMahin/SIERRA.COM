@@ -1,0 +1,432 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+    font-family: Calibri;
+}
+
+p {
+    color: #5F5F5F;
+}
+
+.template {
+    width: 810px;
+}
+
+.head {
+    background-image: url(../images/slider-bg-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    background: #B2AADB;
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+}
+
+.logo img {}
+
+.header ul {
+    float: right;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.header ul li a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+#active {
+    color: darkmagenta;
+}
+
+.banner {
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 35%;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    width: 500px;
+    font-weight: unset;
+}
+
+.banner-content p {
+    font-size: 20px;
+    color: gray;
+}
+
+.banner-btn {
+    margin: 100px 0;
+    width: 150px;
+    text-align: center;
+
+}
+
+.banner-btn a {
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: darkmagenta;
+    background: linear-gradient(to right, #71b6fd 10%, #9390fd 100%);
+    border-radius: 49px;
+    box-shadow: 0 0 10px #0074E8;
+    transition: .5s;
+    font-weight: bold;
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.banner-btn a:hover {
+    transform: translate(-50%, -50%) scale(.8);
+    animation: pulse 2s linear forwards;
+    color: #fff;
+    font-weight: bold;
+    border: 4px solid #FFCADC;
+    font-size: 20px;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 15px linear-gradient(to right, #71b6fd 10%, #9390fd 100%), 0 0 25px linear-gradient(to right, #71b6fd 10%, #9390fd 100%);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(113, 182, 253, .5), 0 0 0 10px rgba(147, 144, 253, .5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(113, 182, 253, .5), 0 0 0 2px rgba(147, 144, 253, .5);
+    }
+
+}
+
+.banner-img {
+    float: right;
+}
+
+.banner-img img {}
+
+.section-one {
+    overflow: hidden;
+}
+
+.title-one {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title-one img {}
+
+.title-one p {}
+
+.title-one h1 {}
+
+.services {
+    text-align: center;
+}
+
+.services-img {
+    padding-bottom: 50px;
+    width: 72px;
+    height: 72px;
+}
+
+.services-img img {}
+
+.services h2 {
+    padding-bottom: 10px;
+}
+
+.services p {}
+
+.brand-identity {
+    float: left;
+    width: 230px;
+    padding: 0 20px;
+}
+
+.online-marketing {
+    width: 230px;
+    float: left;
+    padding: 0 20px;
+}
+
+.social-media {
+    width: 230px;
+    float: right;
+    padding: 0 20px;
+}
+
+.section-two {
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.people {
+    float: left;
+    width: 50%;
+    font-size: 12px;
+}
+
+.people img {
+    padding-bottom: 20px;
+}
+
+.people p {text-align: justify;}
+
+.people h1 {
+    font-size: 30px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    padding-right: 110px;
+}
+
+.people ul {
+    float: left;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #5F5F5F;
+}
+
+.people ul li {}
+
+.people-img {
+    float: right;
+    width: 50%;
+}
+
+.people-img img {
+    width: 190px;
+    height: 190px;
+    padding: 5px;
+}
+
+.section-three {
+    padding-top: 150px;
+    overflow: hidden;
+}
+
+.contact {
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+.contact img {
+    padding-bottom: 20px;
+}
+
+.contact p {}
+
+.contact h1 {}
+
+.map {
+    background-image: url(../images/world-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 225px 0;
+}
+
+.call {
+    overflow: hidden;
+}
+
+.call a {
+    color: #4FA9BF;
+    text-decoration: none;
+}
+
+.call p {
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.office {
+    background: #fff;
+    border-left: 5px solid #8B008B;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 0 5px 5px 0;
+    width: 400px;
+    height: 100px;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.office h1 {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.office p {
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: gray;
+}
+
+.office p a {
+    text-decoration: none;
+    color: gray;
+}
+
+.section-four {
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.content {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.about-us {
+    width: 200px;
+    float: left;
+    margin-top: 50px;
+}
+
+.about-us img {
+    margin-bottom: 15px;
+}
+
+.about-us p {
+    line-height: 30px;
+    color: #101010;
+}
+
+.feed {
+    width: 270px;
+    float: left;
+    overflow: hidden;
+    padding-left: 50px;
+    margin-top: 44px;
+}
+
+.feed h1 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.feed img {
+    width: 50px;
+    padding: 1px;
+    padding: 0 1.3px;
+}
+
+.newsletter {
+    float: left;
+    width: 230px;
+    margin-top: 44px;
+}
+
+.newsletter h1 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.newsletter p {}
+
+.subscrive {}
+
+.sub-box {
+    margin-bottom: 20px;
+}
+
+.sub-box input {
+    width: 200px;
+    height: 40px;
+    color: #7A7A7A;
+    padding-left: 11px;
+    border: none;
+    margin-right: 15px;
+    border: 1px solid gray;
+}
+
+.sub-btn {}
+
+.sub-btn input {
+    width: 130px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 26px;
+    font-size: 15px;
+    cursor: pointer;
+    background: linear-gradient(to right, #71b6fd 10%, #9390fd 105%);
+    border: 3px solid #71B6FD;
+}
+
+.sub-btn input:hover {
+    border: 4px solid #FFCADC;
+    background: #b2aadb;
+    color: darkmagenta;
+    font-weight: bold;
+}
+
+footer {
+    background: #0F153A;
+}
+
+.footer-section {
+    overflow: hidden;
+}
+
+.copyright {
+    float: left;
+    margin-top: 12px;
+}
+
+.copyright p {
+    color: #AACCF9;
+}
+
+i {
+    color: #003CB2;
+}
+
+.copyright a {
+    color: #003CB2;
+}
+
+.social-sites {
+    float: right;
+}
+
+.social-sites a {}
+
+.social-sites a img {
+    width: 30px;
+    margin: 10px 0;
+    margin-bottom: 2px;
+    background: #AACCF9;
+    border-radius: 15px;
+    border: .1px solid #AACCF9;
+}
