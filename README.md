@@ -1,2 +1,2 @@
-# SIERRA.COM
+# SIERRA.com
 My first html-css project
